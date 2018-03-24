@@ -26,6 +26,14 @@ def draw1():
     global f
     global z
     glMatrixMode(GL_MODELVIEW)
+    
+     #To show movement
+    glLoadIdentity()
+    glColor3f(.1,.10, .10)
+    glTranslate(-1, -1, -4)
+    glRotate(90, 1, 0, 0)
+    glScale(0.5, 1, -5)
+    glutSolidCylinder(1, 2, 10, 10)
 
     #ROAD
     glLoadIdentity()
