@@ -25,8 +25,6 @@ def draw1():
     glPopAttrib()
     glPopMatrix()
 
-    # glLoadIdentity()
-
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
     glColor(1,1,1)
